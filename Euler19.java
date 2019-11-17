@@ -30,10 +30,7 @@ public class CountingSundays {
                 check();
             }
             doy += 31;
-            if (i % 4 == 0) {
-                day = doy % 7;
-            }
-            else day = doy % 7;
+            day = doy % 7;
         }
         return count;
     }
